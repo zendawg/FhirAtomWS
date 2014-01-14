@@ -102,7 +102,7 @@
             <id>process-classes</id>
             <phase>process-classes</phase>
             <configuration>
-              <className>org.meh.ws.test.webtest.NewWebService</className>
+              <className>org.openeyes.fhiratomws.FhirAtomWebService</className>
               <genWsdl>true</genWsdl>
               <verbose>true</verbose>
             </configuration>

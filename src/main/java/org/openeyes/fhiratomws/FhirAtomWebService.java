@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.meh.fhiratomws;
+package org.openeyes.fhiratomws;
 
 import javax.jws.WebService;
 import javax.jws.WebMethod;
@@ -18,7 +18,7 @@ import org.w3.x2005.atom.impl.FeedTypeImpl;
  *
  * @author rich
  */
-@WebService(serviceName = "NewWebService")
+@WebService(serviceName = "FhirAtomWebService")
 public class FhirAtomWebService {
 
   /**
