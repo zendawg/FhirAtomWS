@@ -24,7 +24,7 @@ public class FhirAtomWebService {
   /**
    * This is a sample web service operation
    */
-  @WebMethod(operationName = "feedType")
+  @WebMethod(operationName = "setFeedType")
   @XmlElement(type=FeedTypeImpl.class)
   public void foo(@WebParam(name = "feedType") org.w3.x2005.atom.impl.FeedTypeImpl txt) {
 //    return null;
@@ -67,14 +67,14 @@ public class FhirAtomWebService {
   /**
    * This is a sample web service operation
    */
-  @WebMethod(operationName = "fhir")
+  @WebMethod(operationName = "setPatient")
   @XmlElement(type=Patient.class)
-  public void bar(@WebParam(name = "n1") Patient n1) {
+  public void setPatient(@WebParam(name = "n1") Patient n1) {
 //    return null;
   }
-  @WebMethod(operationName = "fhirResourceType")
+  @WebMethod(operationName = "setResourceType")
   @XmlElement(type=ResourceTypeImpl.class)
-  public void bar(@WebParam(name = "n1") ResourceTypeImpl n1) {
+  public void setResourceType(@WebParam(name = "n1") ResourceTypeImpl n1) {
 //    return null;
   }
 }
